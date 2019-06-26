@@ -500,4 +500,7 @@
          that can be set by the user. -->
     <integer name="config_screenBrightnessDoze">17</integer>
 
+   <!-- Enable round icons -->
+   <bool name="config_useRoundIcon">true</bool>
+
 </resources>
