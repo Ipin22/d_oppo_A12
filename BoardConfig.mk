@@ -87,6 +87,9 @@ BOARD_HAS_MTK_HARDWARE := true
 BOARD_USES_MTK_HARDWARE := true
 MTK_HARDWARE := true
 
+# Power
+TARGET_TAP_TO_WAKE_NODE := /proc/gesture/onoff
+
 # Partitions
 
 BOARD_BOOTIMAGE_PARTITION_SIZE := 33554432
