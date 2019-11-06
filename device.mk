@@ -28,6 +28,10 @@ ifneq ($(findstring lineage, $(TARGET_PRODUCT)),)
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-lineage
 endif
 
+# Power
+PRODUCT_PACKAGES += \
+    power.mt6765
+
 # Rootdir
 PRODUCT_PACKAGES += \
     fstab.mt6765 \
