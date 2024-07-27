@@ -16,7 +16,10 @@
 
 # API levels
 PRODUCT_SHIPPING_API_LEVEL := 28
-
+# Keylayout
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/keylayout/ACCDET.kl:$(TARGET_COPY_OUT_SYSTEM)/usr/keylayout/ACCDET.kl \
+    $(LOCAL_PATH)/configs/keylayout/mtk-kpd.kl:$(TARGET_COPY_OUT_SYSTEM)/usr/keylayout/mtk-kpd.kl \
 # Rootdir
 PRODUCT_PACKAGES += \
     fstab.mt6765 \
