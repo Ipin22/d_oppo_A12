@@ -95,6 +95,10 @@ MTK_HARDWARE := true
 # Power
 TARGET_TAP_TO_WAKE_NODE := /proc/gesture/onoff
 
+# Properties
+TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
+TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
+
 # Partitions
 
 BOARD_BOOTIMAGE_PARTITION_SIZE := 33554432
