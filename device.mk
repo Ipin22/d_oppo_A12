@@ -32,3 +32,6 @@ endif
 PRODUCT_PACKAGES += \
     fstab.mt6765 \
     init.target.rc \
+
+# Inherit the proprietary files
+$(call inherit-product, vendor/oppo/CPH2083/CPH2083-vendor.mk)
