@@ -44,6 +44,9 @@ TARGET_USES_64_BIT_BINDER := true
 TARGET_SCREEN_HEIGHT := 1520
 TARGET_SCREEN_WIDTH := 720
 
+# Board
+TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
+
 # Kernel
 BOARD_KERNEL_CMDLINE := bootopt=64S3,32N2,64N2
 # BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
