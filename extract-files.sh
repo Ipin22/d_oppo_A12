@@ -18,8 +18,8 @@
 
 set -e
 
-export DEVICE=RMX2185
-export VENDOR=realme
+export DEVICE=CPH2083
+export VENDOR=oppo
 
 # Load extract_utils and do some sanity checks
 MY_DIR="${BASH_SOURCE%/*}"
