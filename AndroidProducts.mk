@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 PRODUCT_MAKEFILES := \
-	$(LOCAL_DIR)/aosp_CPH2083.mk
+	$(LOCAL_DIR)/lineage_CPH2083.mk
 COMMON_LUNCH_CHOICES := \
         aosp_CPH2083-eng \
         aosp_CPH2083-user \
