@@ -117,6 +117,9 @@ TARGET_USERIMAGES_USE_F2FS := true
 # Releasetools
 TARGET_RELEASETOOLS_EXTENSIONS := $(COMMON_PATH)/releasetools
 
+# Security patch level
+VENDOR_SECURITY_PATCH := 2020-05-05
+
 # Treble
 BOARD_VNDK_VERSION  := current
 
