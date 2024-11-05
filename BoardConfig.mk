@@ -111,6 +111,9 @@ TARGET_RECOVERY_FSTAB := $(LOCAL_PATH)/rootdir/etc/recovery.fstab
 TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
 
+# Releasetools
+TARGET_RELEASETOOLS_EXTENSIONS := $(COMMON_PATH)/releasetools
+
 # Treble
 BOARD_VNDK_VERSION  := current
 
