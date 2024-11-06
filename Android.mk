@@ -13,6 +13,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
+
 LOCAL_PATH := $(call my-dir)
+
 ifeq ($(TARGET_DEVICE),CPH2083)
+include $(call all-subdir-makefiles,$(LOCAL_PATH))
+endif
 
